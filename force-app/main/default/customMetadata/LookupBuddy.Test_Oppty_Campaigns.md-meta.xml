@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Test Oppty Campaigns</label>
+    <protected>false</protected>
+    <values>
+        <field>Lookup_A_Field__c</field>
+        <value xsi:type="xsd:string">CampaignId</value>
+    </values>
+    <values>
+        <field>Lookup_A_Object__c</field>
+        <value xsi:type="xsd:string">Campaign</value>
+    </values>
+    <values>
+        <field>Lookup_A_to_B_Field__c</field>
+        <value xsi:type="xsd:string">ParentId</value>
+    </values>
+    <values>
+        <field>Lookup_B_Field__c</field>
+        <value xsi:type="xsd:string">Parent_Campaign__c</value>
+    </values>
+    <values>
+        <field>Primary_Object__c</field>
+        <value xsi:type="xsd:string">Opportunity</value>
+    </values>
+</CustomMetadata>
